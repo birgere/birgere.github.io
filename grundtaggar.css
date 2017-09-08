@@ -1,0 +1,15 @@
+body{
+    min-width: 300px;
+    max-width: 80%;
+    margin: auto;
+    font-family: arial;
+    font-size: 1.3em;
+}
+header{
+    background-color:azure;
+    padding: 20px;
+}
+footer{
+    margin-top: 100px;
+    background-color:azure;
+}
