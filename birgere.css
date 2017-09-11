@@ -25,7 +25,8 @@ footer{
 
 @media screen and (max-width: 800px){
     main{
-        background-size: 40%;
+        background-size: 25%;
+        font-size:120%;
     }
     
 }
