@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin:0;
+}
+
+header{
+    padding:20px;
+    background: linear-gradient(#eee, #444);
+    border-bottom:2px dashed #444;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background: #FFE1F9 url("img/ranka.svg") right top no-repeat;
+}
+
+footer{
+    border-top:2px dashed #444;
+    background: linear-gradient(#444, #eee);
+    padding:20px;
+}
+
+@media screen and (max-width: 800px){
+    main{
+        background-size: 40%;
+    }
+    
+}
