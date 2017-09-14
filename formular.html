@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Exempel på formulär</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <!-- Skapa formuläret -->
+        <form>
+        
+        </form>
+        
+        <!-- Lägg till inputfält -->
+        <form>
+            <input value="Skriv här">
+        </form>
+
+        <!-- Lägg till attributet "type" för inputfält, date, file, number -->
+        <form>
+            Namn:<input type="text">
+            Lösen:<input type="password">
+            <input type="color" value="#ffffff">
+            <input type="submit" value="OK">
+        </form>
+        
+        <!-- Ett block för varje input med t ex <p> eller <div> -->
+        <form>
+            <p>Namn:<input type="text"></p>
+            <p>Lösen:<input type="password"></p>
+            <input type="submit" value="OK">
+        </form>
+        
+        <!-- Checkbox -->
+        <form>
+            <p>Välj i checkbox:</p>
+            <p><input type="checkbox" name="dag">Måndag</p>
+            <p><input type="checkbox" name="dag">Tisdag</p>
+            <input type="submit" value="OK">
+        </form>
+
+        <!-- Radioknappar -->
+        <form>
+            <p>Välj:</p>
+            <p><input type="radio" name="dag">Måndag</p>
+            <p><input type="radio" name="dag">Tisdag</p>
+            <input type="submit" value="OK">
+        </form>
+        
+        <!-- Flerradig textarea -->
+        <form>
+            Meddelande:<br>
+            <textarea>Skriv här!</textarea><br>
+            <input type="submit" value="OK">
+        </form>
+        
+        <!-- En lista -->
+        <form>
+            Välj:
+            <select name="fika">
+                <option value="bullar">Bullar</option>
+                <option value="kakor">Kakor</option>
+                <option value="tarta">Tårta</option>
+            </select>
+            <input type="submit" value="OK">
+        </form>
+        
+       <!-- Blandat formulär -->
+        <form>
+            Namn:<input type="text"><br>
+            Lösen:<input type="password"><br>
+            <input type="color" value="#ffffff"><br>
+            Välj:<br>
+            <input type="radio" name="dag">Måndag<br>
+            <input type="radio" name="dag">Tisdag<br>
+            Välj:
+            <select name="fika">
+                <option value="bullar">Bullar</option>
+                <option value="kakor">Kakor</option>
+                <option value="tarta">Tårta</option>
+            </select><br>
+            <input type="submit" value="OK">
+        </form>
+    </body>
+</html>

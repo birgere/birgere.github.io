@@ -1,0 +1,9 @@
+/* form.css */
+form {
+    display: block;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+form:nth-child(even) {
+    background: #ddd;
+}
