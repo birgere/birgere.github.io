@@ -3,6 +3,7 @@ form {
     display: block;
     margin-bottom: 50px;
     padding: 10px;
+    background: #dbf;
 }
 form:nth-child(even) {
     background: #ddd;
