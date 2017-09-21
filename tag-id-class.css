@@ -1,0 +1,28 @@
+#logga {
+    float:left;
+}
+
+img {
+    float:right;
+    margin-right:20px;
+}
+
+h1 {
+    line-height: 190px;
+    font-size:60px;
+}
+.first{
+    background-color:#fd8;
+}
+h2.first{
+    padding-left: 20px;
+    border:2px dotted #a84;
+}
+
+#offer {
+    border:1px solid red;
+    margin: 20px;
+    padding: 30px;
+    font-family: sans-serif;
+    color: green;
+}
