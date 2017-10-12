@@ -1,0 +1,38 @@
+html, body{ height:100%;}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    width:200px;
+    display: inline-block;
+    background: #ccc;
+    padding-top: 20px;
+    height:calc(100% - 20px);
+    text-align: center;
+}
+nav a { 
+    padding:5px 10px; 
+    border:1px solid blue; 
+    margin: 5px; 
+    display:inline-block; 
+    text-decoration: none; 
+    min-width:100px; 
+    border-radius:4px;
+    text-align:center;
+    background-color: azure;
+    box-shadow: 2px 2px 4px;
+    font-family: sans-serif;
+}
+nav a:hover{
+    color:#fff;
+    background-color: blue;
+}
+main{
+    display: inline-block;
+    vertical-align: top;
+    background: #cbb;
+    padding: 20px;
+    height:calc(100% - 20px);
+    width: calc(100% - 210px);
+}
