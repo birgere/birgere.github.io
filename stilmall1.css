@@ -1,0 +1,26 @@
+/* Ska bli en stilmall */
+html, body{
+    margin: 0;
+}
+header, main, footer{
+    padding: 20px;
+}
+body{
+    background-color:rgb(190,108,126);
+    background-image:url(img/simon-matzinger-320332.jpg);
+    background-repeat:no-repeat;
+}
+header{
+    background-color:aliceblue;
+}
+footer{
+    background-color:rgb(255,255,100);
+    min-height:30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+body{
+    background-color:lightyellow;
+}

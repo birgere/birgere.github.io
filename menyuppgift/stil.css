@@ -1,0 +1,23 @@
+header,nav,main,footer{
+    padding:10px;
+}
+
+header{
+    
+}
+nav{
+    background-color: #ccc;
+    display:inline-block;
+    width: 70px;
+    vertical-align: top;
+    height:100%;
+}
+main{
+    background-color: #cc8;
+    display: inline-block;
+    width: 600px;
+    height:100%;
+}
+footer{
+    background-color: #c8c;
+}
