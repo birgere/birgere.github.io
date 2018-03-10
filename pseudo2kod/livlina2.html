@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"> 
+        <title>Spel</title>
+        <style>
+            body{width:600px;padding:20px;margin:20px auto;font-size: 1em;}
+            
+        </style>
+    </head>
+    <body>
+        <h1>Livlina 2</h1>
+        <p>För att vända på en text är det enklast att skapa en metod/funktion för det. Metoden ska ta emot variabeln med texten. Det innebär att du i metodens parenteser skriver ett variabelnamn ex:</p>
+        <pre>metodnamn: function(variabelnamn){ }</pre>
+    
+        <p>En textsträng kan användas på samma sätt som en array<br>
+        Det enklaste sättet att vända på en en array är att i en for-loop kopiera från slutet till en ny array. Ställ alltså in din for-loop att börja med den sista delen (istället för första)<br>
+        Det här startar loopen i slutet av en array:</p>
+        <pre>var i = text.length</pre>    
+        <p>Sedan minskar du i tills det är 0 (dvs där arrayen börjar)</p>
+        <p>För att lägga till från slutet i en ny array använder du push, så här:</p>
+        <pre>ny.push(text[i])</pre>
+        <p>För att slå ihop din nya array till en textsträng används join, så här:</p>
+        <pre>ny.join('')</pre>
+        <p>Om du vill skicka tillbaka det som metoden/funktionen gjort används "return" längst ner i metoden/funktionen, så här:</p>
+        <pre>return ny;</pre>eller rentav så här:<pre>return ny.join('');</pre>
+        
+    </body>
+</html>

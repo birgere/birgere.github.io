@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"> 
+        <title>Spel</title>
+        <style>
+            body{width:600px;padding:20px;margin:20px auto;font-size: 1em;}
+            
+        </style>
+    </head>
+    <body>
+        <h1>Livlina 3</h1>
+        <p>För att lägga till en knapp kan du t ex skriva:</p>
+
+        <pre>this.add.button(100,350,'restart', this.startaom, this, 1,0);</pre>
+        
+        <p>"this.startaom" i koden gör att den metoden/funktionen körs när användaren trycker på knappen. <br>
+        Alltså måste du skapa den metoden nedanför create.<br>
+        I den metoden kan du starta om spelet med:</p>
+        <pre>this.state.start(game.state.current);</pre>
+        <p>Siffrorna i slutet talar om vilken av bilderna i din spritesheet som ska visas. Den siffran gäller "down" och den andra om knappen är "up"</p>
+        
+    </body>
+</html>
