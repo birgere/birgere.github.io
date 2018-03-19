@@ -1,0 +1,34 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URL: http://köpingkodar.nu
+Description: Twenty Seventeen Child Theme
+Author: Birger Eriksson
+Author URL: http://köpingkodar.nu
+Template: twentyseventeen
+Version: 1.0.0
+Text Domain: twentyseventeen-child
+*/
+.wrap { max-width: 1300px; }
+
+.bildspace{
+	padding:8px;
+}
+
+
+
+
+
+/* end Submenu */
+
+#primary header.entry-header{
+    background-color:yellow;
+}
+#primary .entry-content{
+    background-color:greenyellow;
+}
+
+@media (max-width: 42em) {
+#primary header.entry-header{
+    background-color:skyblue;
+}
+}
