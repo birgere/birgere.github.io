@@ -27,7 +27,7 @@ Text Domain: twentyseventeen-child
     background-color:greenyellow;
 }
 
-@media (max-width: 42em) {
+@media (max-width: 50em) {
 #primary header.entry-header{
     background-color:skyblue;
 }
