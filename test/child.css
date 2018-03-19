@@ -21,7 +21,7 @@ Text Domain: twentyseventeen-child
 /* end Submenu */
 
 #primary header.entry-header{
-    background-color:yellow;
+    background-color:red;
 }
 #primary .entry-content{
     background-color:greenyellow;
