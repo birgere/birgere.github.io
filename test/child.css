@@ -27,8 +27,29 @@ Text Domain: twentyseventeen-child
     background-color:greenyellow;
 }
 
-@media (max-width: 50em) {
-#primary header.entry-header{
-    background-color:skyblue;
+.wrap {
+max-width: 72em; /* 1145px */
+padding-left: 3em;
+padding-right: 3em;
 }
+#primary {
+width: 96% !important;
 }
+
+
+@media (max-width: 48em) {
+    body.page-two-column:not(.archive) #primary header.entry-header{
+        background-color:skyblue;
+        clear: both;
+        width:100%;
+        display:inline-block;
+    }
+    
+    body.page-two-column:not(.archive) #primary .entry-content{
+        clear: both;
+        width:100%;
+        display:inline-block;
+    }
+
+}
+    
