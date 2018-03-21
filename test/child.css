@@ -8,24 +8,13 @@ Template: twentyseventeen
 Version: 1.0.0
 Text Domain: twentyseventeen-child
 */
-.wrap { max-width: 1300px; }
+/*.wrap { max-width: 1300px; }*/
 
 .bildspace{
 	padding:8px;
 }
 
-
-
-
-
 /* end Submenu */
-
-#primary header.entry-header{
-    background-color:red;
-}
-#primary .entry-content{
-    background-color:greenyellow;
-}
 
 .wrap {
 max-width: 72em; /* 1145px */
@@ -39,14 +28,13 @@ width: 96% !important;
 
 @media (max-width: 48em) {
     body.page-two-column:not(.archive) #primary header.entry-header{
-        background-color:skyblue;
-        clear: both;
+        /*clear: both;*/
         width:100%;
         display:inline-block;
     }
     
     body.page-two-column:not(.archive) #primary .entry-content{
-        clear: both;
+        /*clear: both;*/
         width:100%;
         display:inline-block;
     }
